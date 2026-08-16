@@ -3,16 +3,16 @@ from time import sleep
 
 import pygame
 
-from settings import Settings
-from game_stats import GameStats
-from scoreboard import Scoreboard
+from game.settings import Settings
+from game.game_stats import GameStats
+from game.scoreboard import Scoreboard
 
 
-from ship import Ship
-from bullet import Bullet
-from alien import Alien
-from button import Button
-from sound import SoundManager
+from game.ship import Ship
+from game.bullet import Bullet
+from game.alien import Alien
+from game.button import Button
+from game.sound import SoundManager
 
 
 
