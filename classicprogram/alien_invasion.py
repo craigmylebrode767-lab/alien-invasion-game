@@ -2,14 +2,14 @@ from time import sleep
 
 import pygame
 
-from game.settings import Settings
-from game.game_stats import GameStats
-from game.scoreboard import Scoreboard
-from game.ship import Ship
-from game.bullet import Bullet
-from game.alien import Alien
-from game.button import Button
-from game.sound import SoundManager
+from classicprogram.game import Settings
+from classicprogram.game import GameStats
+from classicprogram.game import Scoreboard
+from classicprogram.game import Ship
+from classicprogram.game import Bullet
+from classicprogram.game import Alien
+from classicprogram.game import Button
+from classicprogram.game import SoundManager
 
 
 class AlienInvasion:
