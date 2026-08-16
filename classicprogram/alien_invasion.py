@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+
+# 确保从任意目录直接运行时都能导入 classicprogram 包
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from time import sleep
 
 import pygame
