@@ -1,4 +1,5 @@
 import pygame
+from pathlib import Path
 from pygame.sprite import Sprite
 
 class Ship(Sprite):
@@ -12,7 +13,7 @@ class Ship(Sprite):
         self.screen_rect = ai_game.screen.get_rect()
 
         #加载⻜船图像并获取其外接矩形
-        self.image = pygame.image.load('images/77.bmp')
+        self.image = pygame.image.load(Path(__file__).resolve().parent.parent / 'images' / '77.bmp')
         self.rect = self.image.get_rect()
 
         # 每艘新⻜船都放在屏幕底部的中央
