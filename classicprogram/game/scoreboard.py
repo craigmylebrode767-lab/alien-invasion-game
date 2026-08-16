@@ -1,6 +1,6 @@
 import pygame.font
 from pygame.sprite import Group
-from game.ship import Ship
+from classicprogram.game.ship import Ship
 
 class Scoreboard:
     """"显示得分信息的类"""
